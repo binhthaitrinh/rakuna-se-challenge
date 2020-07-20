@@ -10,7 +10,7 @@ const [
   nbTotalClones, // number of generated clones
   nbAdditionalElevators, // ignore (always zero)
   nbElevators, // number of elevators
-] = inputs.map((i) => parseInt(i));
+] = inputs.map((ele) => parseInt(ele));
 
 const floorGoal = {}; // store the goal (elevator) position of each floor
 for (let i = 0; i < nbElevators; i++) {
