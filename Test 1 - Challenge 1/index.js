@@ -1,7 +1,4 @@
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
+// Complete the Don't Panic code challenge in Javascript
 
 var inputs = readline().split(' ');
 const nbFloors = parseInt(inputs[0]); // number of floors
@@ -12,7 +9,7 @@ const exitPos = parseInt(inputs[4]); // position of the exit on its floor
 const nbTotalClones = parseInt(inputs[5]); // number of generated clones
 const nbAdditionalElevators = parseInt(inputs[6]); // ignore (always zero)
 const nbElevators = parseInt(inputs[7]); // number of elevators
-const floorGoal = {};
+const floorGoal = {}; // store the goal (elevator) position of each floor
 for (let i = 0; i < nbElevators; i++) {
   var inputs = readline().split(' ');
   const elevatorFloor = parseInt(inputs[0]); // floor on which this elevator is found
